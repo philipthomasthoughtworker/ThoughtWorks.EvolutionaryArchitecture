@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="States\" />
+    <Folder Include="Tools\" />
+    <Folder Include="CodeQuality\" />
+    <Folder Include="Resiliency\" />
+    <Folder Include="Observability\" />
+    <Folder Include="Performance\" />
+    <Folder Include="Compliance\" />
+    <Folder Include="Security\" />
+    <Folder Include="Operability\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="States\CodeComplexityState.cs" />
+  </ItemGroup>
+</Project>
