@@ -2,6 +2,7 @@
 using Moq;
 using ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions.States;
 using ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions.Tools;
+using ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions.CodeQuality;
 
 namespace ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions.Tests
 {

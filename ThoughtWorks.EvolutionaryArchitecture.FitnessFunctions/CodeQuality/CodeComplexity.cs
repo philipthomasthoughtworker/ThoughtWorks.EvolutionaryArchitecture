@@ -1,7 +1,7 @@
 ﻿using ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions.States;
 using ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions.Tools;
 
-namespace ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions
+namespace ThoughtWorks.EvolutionaryArchitecture.FitnessFunctions.CodeQuality
 {
     public class CodeComplexity : Metric<int>
     {
